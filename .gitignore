@@ -1,5 +1,30 @@
+# Rider (JetBrains)
+.idea/
+riderModule.iml
+
+# ReSharper Caches
+/_ReSharper.Caches/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.cache
+*.pdb
+
+# Build directories
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+out/
+
+# Dependencies
+packages/
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment settings
+appsettings.Development.json
+secrets.json
